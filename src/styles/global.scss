@@ -1,0 +1,24 @@
+*, li, ul, a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    box-sizing: border-box;
+  }
+  font-family: "Roboto-Regular", sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
